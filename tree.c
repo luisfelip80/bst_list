@@ -185,7 +185,7 @@ int main (){
 			scanf(" %s",entrada);
 			if(l==3)
 				raiz->root=insert(raiz->root,entrada);// uso o rais->root pois se colocar só o root ele pode estar iniciado como null, assim o novo ponteiro
-			else  // se perde ao ser alocado. pegando o nó do ramo galhos eu tenho acesso direto ao ponteiro da root que aponta para a arvore.
+			else  // se perder ao ser alocado. pegando o nó do ramo galhos eu tenho acesso direto ao ponteiro da root que aponta para a arvore.
 				raiz->root=removeNo(raiz->root,entrada);
 			system("clear");
 		}
